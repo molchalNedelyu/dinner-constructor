@@ -26,8 +26,12 @@ public class Main {
                     generateDishCombo();
                     break;
                 case "3":
+                    System.out.println("Всего доброго!");
                     return;
+                default:
+                    System.out.println("Введена неверная команда");
             }
+
         }
     }
 
